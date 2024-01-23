@@ -1,0 +1,44 @@
+---
+import Card from "../card/Card.astro";
+---
+
+<section
+  class="bg-local bg-no-repeat bg-cover"
+  style="background-image:url(/olas.svg);"
+>
+  <article class="mb-10 mx-10">
+    <h3
+      class="font-primarioOswald text-2xl text-green-menta-400 py-2 capitalize text-center"
+    >
+      nuestros mejores servivcios
+    </h3>
+    <p
+      class="text-lg font-cecundarioRoboto text-azure-radiance-200 px-4 text-center md:text-left"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+      voluptate nobis voluptatibus quia natus reprehenderit repellendus alias.
+    </p>
+  </article>
+  <article
+    class="grid md:grid-cols-3 gap-4 p-2 animate-fade-up animate-duration-[2000ms]"
+  >
+    <Card
+      icons="marketing.svg"
+      alt="imagen de coete"
+      title="marketing digital"
+      description="Desata el potencial de tu marca con nuestro enfoque vanguardista en marketing digital. Desde estrategias de contenido hasta campañas publicitarias innovadoras, llevamos tu presencia en línea a nuevas alturas."
+    />
+    <Card
+      icons="redes.svg"
+      alt="imagen "
+      title="manejo de redes"
+      description="Haz que tu presencia social destaque. Con nuestro equipo experto, no solo manejamos tus redes sociales, creamos experiencias cautivadoras. Desde la estrategia hasta la interacción, estamos aquí para impulsar tu comunidad en línea."
+    />
+    <Card
+      icons="diseñoWeb.svg"
+      alt="imagen "
+      title="diseño web"
+      description="Transformamos ideas en experiencias web excepcionales. Nuestro equipo de diseñadores fusiona creatividad y funcionalidad para ofrecerte un sitio web que no solo impresiona visualmente, sino que también impulsa el compromiso y la conversión."
+    />
+  </article>
+</section>
